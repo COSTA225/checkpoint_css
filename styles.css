@@ -1,0 +1,62 @@
+body 
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li 
+{
+    display: inline;
+    margin-right: 10px;
+}
+
+.navigation a 
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.navigation a:hover 
+{
+    text-decoration: underline;
+    color: blue;
+}
+
+h4
+{
+    color: black;
+}
+.boite
+{
+    padding: 50px;
+    margin-left: 150px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.boite-1
+{
+    background-color:orange;
+    text-align: center;
+}
+.boite-2
+{
+    background-color: white;
+    text-align: center;
+
+}
+.boite-3
+{
+    background-color: green;
+    text-align: center;
+
+}
